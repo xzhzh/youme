@@ -554,12 +554,12 @@ footer{
 .warp .header .menus li a{
     color: #000000;
     height: 31px;
+    text-align: center;
     line-height: 31px;
+    display: inline-block;
     padding: 0 20px;
-    margin-left: -10px;
     text-decoration: none;
     font-size: 12px;
-    float: left;
 }
 .warp .header .menus li a:hover{
     background-position: 0 -31px;
@@ -614,4 +614,246 @@ footer{
 .warp .main_list .main_text .shu{
     text-decoration: none;
     color:#006000;
+}
+.warp .main .pager{
+    margin: 10px 0;
+    text-align: right;
+    font-size: 12px;
+    color: #555;
+    clear: both;
+}
+.warp .main .pager span{
+    margin-right: 5px;
+    padding: 3px 6px;
+    border: 1px solid #EDEFF0;
+    text-align: center;  
+}
+.contain .main .pager a{
+    margin-right: 5px;
+    padding: 3px 6px;
+    color: #555;
+    text-decoration: none;
+    border: 1px solid #EDEFF0;
+}
+
+/* 右侧 */
+.warp .sliber{
+    width: 290px;
+    margin-left: 3px;
+    font-size: 100%;
+    line-height: 145%;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.warp .sliber .widget{
+  padding: 10px 15px 19px;
+  margin: 5px;  
+}
+.warp .sliber .widget_img{
+    float: right;
+}
+.warp .sliber .wedget_about .about{
+    width: 290px;
+    font-weight: bold;
+    margin-left: 3px;
+    font-size: 100%;
+    color: #555;
+    font-size: 14px;
+    line-height: 145%;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.warp .sliber .wedget_about {
+    font-size: 12px;
+    color: #555;
+    line-height: 25px;
+}
+.warp .sliber .wedget_about .mail{
+    margin-top:15px;
+}
+.warp .sliber .pinglun{
+    width: 100%;
+    margin-top:30px;
+}
+.warp .sliber .pinglun h2{
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+.warp .sliber .comment li{
+    margin-left: 3px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px dashed #B4B4B4;
+}
+.warp .sliber .comment li span{
+    font-size: 13px;
+    font-weight: bold;
+    color: #555;
+}
+.warp .sliber .comment li a{
+    font-size: 12px;
+    line-height: 20px;
+    color: #464646;
+    text-decoration: none;
+}
+.link1 li a:first-child{
+    font-size:12px;
+    color: #006000;
+    text-decoration:none;
+}
+.link1 li .rss {
+    margin-right: 15px;
+}
+.link1 .share li{
+    margin-top:3px;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* 底部 */
+.main_footer{
+    background: url('../image/header_footer1.jpg') 0 -132px no-repeat;
+    height: 68px;
+    font-size: 12px;
+    line-height: 145%;
+    width: 916px;
+    padding: 10px;
+    clear: both;
+    padding-top: 20px;
+    color: #CCCCCC;
+}
+
+
+/* 评论 */
+.comment_list{
+    margin-top: 4px;
+    clear: both;
+    overflow: hidden;
+    border-bottom: 1px dashed #ccc;
+}
+.comment_list .comment_text{
+    line-height: 22px;
+    color: #555;
+    font-size: 12px;
+}
+.comment_list .comment_text .comment_title{
+    font-weight:bold;
+}
+.comment_list .comment_text .comment_find{
+    text-decoration: none;
+    color: #006000;
+}
+.comment_list .comment_text .comment_find:hover{
+    color: #ff1461;
+}
+.comment_list .comment_time{
+    font-size: 12px;
+    line-height: 22px;
+    color: #808080;
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.comment_list .comment_post{
+    line-height: 22px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #555;
+}
+.comment_list .comment_post span{
+    font-size: 12px;
+    color:#C00 ;
+}
+
+/* 搜索 */
+.searcher{
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 12px;
+}
+.searcher .log{
+    width: 300px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    font-size: 12px;
+    padding: 2px 1px;
+}
+.searcher input{
+    margin-left: 3px;
+}
+.searcher .sear{
+    padding: 2px 10px;
+    margin-left: 3px;
+    font-size: 12px;
+}
+
+/* 登陆微博 */
+.model{
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.75;
+    display: none;
+}
+.model .model_window{
+    position: fixed;
+    background: #ffffff;
+    z-index: 108;
+    color: #000000;
+    border: 4px solid #525252;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    margin-left: -155px;
+    width: 310px;
+    margin-top: -70px;
+    display: block;
+}
+.model .model_window .model_header{
+    background-color: #e8e8e8;
+    height: 27px;
+}
+.model .model_window .model_title{
+    float: left;
+    font-size: 13px;
+    color: #999;
+    font-weight: bold;
+    padding: 7px 0 5px 10px;
+    margin-bottom: 1px;
+}
+.model .model_window .model_close{
+    padding: 4px 10px 5px 0;
+    margin-bottom: 1px;
+    text-align: right;
+    cursor: pointer;
+    float: right; 
+}
+.model_comtent{
+    width: 280px;
+    height: 95px;
+    clear: both;
+    padding: 2px 15px 15px 15px;
+    overflow: auto;
+    text-align: left;
+    line-height: 20px; 
+}
+.model_comtent form{
+    margin-top: 15px;
+}
+.model_comtent label{
+    color: #000;
+    font-size: 12px;
+}
+.model_comtent .btn{
+    width: 59px;
+    height: 23px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top:7px; 
 }
