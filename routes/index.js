@@ -14,6 +14,9 @@ router.get('/bright', function(req, res, next) {
 router.get('/view', function(req, res, next) {
   res.render('view', { title: 'Express' });
 });
+router.get('/message', function(req, res, next) {
+  res.render('message', { title: 'Express' });
+});
 router.get('/circle', function(req, res, next) {
   res.render('circle', { title: 'Express' });
 });
