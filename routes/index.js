@@ -29,4 +29,7 @@ router.get('/search', function(req, res, next) {  //搜索
 router.get('/login', function(req, res, next) {  //微博登陆
   res.render('login', { title: 'Express' });
 });
+router.get('/detail', function(req, res, next) {  //详情页
+  res.render('detail', { title: 'Express' });
+});
 module.exports = router;

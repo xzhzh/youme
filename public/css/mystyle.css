@@ -797,8 +797,10 @@ footer{
     height: 100%;
     width: 100%;
     background-color: #000;
-    opacity: 0.75;
-    display: none;
+    opacity: 0.75; 
+}
+#model{
+   display: none; 
 }
 .model .model_window{
     position: fixed;

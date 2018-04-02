@@ -236,7 +236,7 @@
 	</div>
 </div>
 
-<div class="model">
+<div class="model" id="model">
 	<div class="model_window">
 		<div class="model_header">
 			<div class="model_title">登陆到微博</div>
@@ -251,6 +251,16 @@
 		</div>
 	</div>
 </div>
+
+<script>
+window.onload=function(){
+	$('.login').click(function(event) {
+		$('#model').show();
+		alert(123)
+	});
+}
+	
+</script>
 	
 </body>
 </html>
